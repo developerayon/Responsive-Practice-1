@@ -65,6 +65,13 @@
     .footer-right li {
         padding: 0 10px;
     }
+    .header-right ul li a {
+        padding: 0 12px;
+        line-height: 44px;
+        border-right: none;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
 }
 @media (max-width:400px) {
     .banner-caption h1 {
@@ -85,5 +92,26 @@
     }
     .blog-item p {
         text-align: justify;
+    }
+}
+@media (max-width:300px) {
+    .header-right ul li a {
+        padding: 0px 7px;
+        line-height: 41px;
+        margin-bottom: 21px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .banner-caption h2 {
+        padding: 6px;
+        font-size: 26px;
+    }
+    .banner-caption h1 {
+        font-size: 27px;
+        padding: 3px;
+        max-width: 241px;
+    }
+    .banner {
+        padding: 69px 0;
     }
 }
