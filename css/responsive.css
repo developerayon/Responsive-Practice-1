@@ -77,4 +77,13 @@
         padding: 10px;
         font-size: 33px;
     }
+    .header-right ul li a {
+        padding: 0px 11px;
+        line-height: 41px;
+        margin-bottom: 21px;
+        font-size: 12px;
+    }
+    .blog-item p {
+        text-align: justify;
+    }
 }
